@@ -3,6 +3,7 @@
     <head>
         <title>Cedric's Captivating Compendium</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="AssassinationG.js"></script>
     </head>
     <body>
     <div id="header">
@@ -21,21 +22,28 @@
         </div>
     </div>
     <div id="content">
-        <div class="container">
-            <div class="about">
-                <div class="about-author">
-                    <img src="profilepic.jpg">
+        <div class="post-container">
+            <div class="post">
+                <h3 class="post title">Assassination generator 5e</h3>
+                <div class="post content">
+                    <h5>Please enter the difficulty level and the investigation check</h5></p>
+                    <label for="difInput">Difficulty:</label>
+            <input type="text" id="difInput" name="difInput"><br><br>
+            <label for="invInput">Investigation:</label>
+            <input type="text" id="invInput" name="invInput"><br><br>
+            <label for="stealthInput">Stealth:</label>
+            <input type="text" id="stealthInput" name="stealthInput"><br><br>
+            <label for="atckInput">Attack:</label>
+            <input type="text" id="atckInput" name="atckInput"><br><br>
+            <p><button class="w3-button w3-padding-large w3-white w3-border" onClick="generateEncounter()"><b>Generate</b></button></p>
+            <h4><b>Outcome</b></h4>
+            <div id="encounterWrapper">
+                <p>How well did you fare ?</p>
                 </div>
-                <h1 class="about title">About Cedric's Captivating Compendium</h1>
-                <div class="about content">
-                    <p>Hello there! I am changing career from hospitality industry to web development. </p>
-                    <p>With the help of my friend i decided to do more than an empty blog, so here is the result of
-                        my dnd content and the skills i have acquire so far.
-                    </p>
                 </div>
             </div>
         </div>
-    </div>
+    </div>   
     <div id="footer">
         <div class="container">
             <div class="column">

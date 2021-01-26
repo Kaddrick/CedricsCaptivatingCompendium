@@ -3,6 +3,7 @@
     <head>
         <title>Cedric's Captivating Compendium</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="bard.js"></script>
     </head>
     <body>
     <div id="header">
@@ -16,26 +17,27 @@
                 <a href="fishing.html">Fishing Generator</a>
                 <a href="WorldMap.html">World Map</a>
                 <a href="OneShots.html">One Shots</a>
-                <a href="Bard.html">Bard's best lines</a>
             </div>
         </div>
     </div>
-    <div id="content">
-        <div class="container">
-            <div class="about">
-                <div class="about-author">
-                    <img src="profilepic.jpg">
+
+    <div id="content">    
+        <div class="post-container">
+            <div class="post">
+                <div class="Bard">
                 </div>
-                <h1 class="about title">About Cedric's Captivating Compendium</h1>
-                <div class="about content">
-                    <p>Hello there! I am changing career from hospitality industry to web development. </p>
-                    <p>With the help of my friend i decided to do more than an empty blog, so here is the result of
-                        my dnd content and the skills i have acquire so far.
-                    </p>
+                <h3 class="post title">Bard's line generator</h3>
+                <div class="post content">
+                    <p>Here is a little bard's line generator for spells like vicious mockery or tasha's hideous laughter:</p>
+                    <p><button class="w3-button w3-padding-large w3-white w3-border" onClick="GenerateLine()"><b>Bard line</b></button></p>
+            <h4><b>Bard's line</b></h4>
+            <p id="BardWrapper">
+            </p>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
+
     <div id="footer">
         <div class="container">
             <div class="column">
@@ -52,6 +54,7 @@
         </div>
      </div>
     </div>
+
     <script>
         function openNav() {
           document.getElementById("Myside-nav").style.width = "250px";
