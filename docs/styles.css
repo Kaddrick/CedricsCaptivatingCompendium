@@ -82,6 +82,16 @@ a:hover {
     border-radius: 50%;
 }
 
+.post-bride img {
+    height: 400px;
+    width: 300px;
+}
+
+.post-mirror img {
+    height: 400px;
+    width: 300px;
+}
+
 .post-WordlMap img {
     width: 800x;
     height: 600px;
