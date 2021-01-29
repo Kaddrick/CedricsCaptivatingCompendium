@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cedric's Captivating Compendium</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <a id="header-title" href="index.html">Cedric's Captivating Compendium</a>
+                <div class="Scroll"><span style="font-size:15px;cursor:pointer" onclick="openNav()">Roll the scroll</span></div>
+                <div id="Myside-nav" class="side-nav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="about.html">About</a>
+                    <a href="AssassinationProject.html">Assassination Generator</a>
+                    <a href="fishing.html">Fishing Generator</a>
+                    <a href="WorldMap.html">World Map</a>
+                    <a href="OneShots.html">One Shots</a>
+                    <a href="Bard.html">Bard's best lines</a>
+                </div>
+            </div>
+        </div>
+<div id="content">        
+    <div class="post-container">
+    <div class="post">
+        <h3 class="post title">Ephyra</h3>
+        <div class="post content">
+                <h5>Map of the city</h5></p>
+            <div class="EphyraInfo">
+                <a href="Ephyra.jpg"><img src="Ephyra.jpg"></a>
+            </div>
+            <br><br>
+            Ephyra is a small city once famous for its winter solstice, start to regain slowly its reputation<br>
+            after a zombie outbreak.<br><br>
+            Inns:<br><br>
+            <b>The Hungry Chair</b><br>
+            Situated by the south gate of the city, the first stop of many adventurer in search work and rest<br><br>
+            <b>The Golden Goblet</b><br>
+            Slightly expensive, inn of a higher standard mainly merchant and travelers stop by<br><br>
+            <b>The Naughty Tea</b><br>
+            Rough inn, poor standard and the ale is said to taste foul<br>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <div class="column">
+            <h4>My links</h4>
+            <p>
+                <a href="https://www.instagram.com/ced_dnd/">Instagram</a>
+                <br>
+                <a href="https://www.linkedin.com/in/c%C3%A9dric-ivars-898550195/">LinkedIn</a>
+            </p>
+        </div>
+    <div class="column">
+        <h4>Thank for visiting the CCC</h4>
+        <p>Check my links for more</p>
+    </div>
+ </div>
+</div>
+    <script>
+        function openNav() {
+          document.getElementById("Myside-nav").style.width = "250px";
+          document.getElementById("header").style.marginLeft = "250px";
+          document.getElementById("content").style.marginLeft = "250px";
+          document.getElementById("footer").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("Myside-nav").style.width = "0";
+          document.getElementById("header").style.marginLeft = "0px";
+          document.getElementById("content").style.marginLeft = "0px";
+          document.getElementById("footer").style.marginLeft= "0px";
+        }
+        </script>
+</body>
+</html>
