@@ -1,20 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400;700);
 
 body {
     color: #555;
     margin: 0;
-
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     max-width: 1000px;
+    width:100%;
     margin: 0 auto;
 }
 
 #header {
     background-color: #19cece;
     height: 150px;
+    width: 100%;
     line-height: 150px;
 }
 
@@ -41,6 +42,7 @@ body {
 
 #footer {
     background-color: #2f2f2f;
+    width: 100%;
     padding: 50px 0;
 }
 
