@@ -13,7 +13,7 @@ body {
 }
 
 #header {
-    background-color: #720808;
+    background-color: #19cece;
     height: 150px;
     line-height: 150px;
 }
@@ -35,7 +35,7 @@ body {
     float: right;
 
     font-size: 20px;
-    color: gold;
+    color:ivory;
     font-weight: bold;
 }
 
@@ -61,12 +61,12 @@ body {
 }
 
 a {
-    color: #692525;
+    color: gold;
     text-decoration: none;
 }
 
 a:hover {
-    color: #F6A623;
+    color: #0c0905;
 }
 
 .post {
@@ -80,6 +80,12 @@ a:hover {
     height: 200px;
     vertical-align: middle;
     border-radius: 50%;
+}
+
+.post content img {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
 }
 
 .post-WordlMap img {
@@ -104,7 +110,7 @@ a:hover {
 
 .Scroll {
     float: left;
-    color: gold;
+    color: ivory;
     
 }
 
@@ -160,6 +166,95 @@ p {
     background-color: #f2f2f2;
 }
 
+.bar span {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    background-color: rgba(6, 74, 138, 0.253);
+    border-radius: 50px;
+}
+
+.bar span:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 5px;
+    width: 80%;
+    height: 50%;
+    border-radius: 50px;
+    background: linear-gradient(to left, rgb(67, 67, 204), rgb(20, 172, 121));
+    animation: bar 4s ease;
+}
+
+@keyframes bar{
+    from {
+        width: 0;
+    }
+}
+
+.bar:nth-child(1) span:before{
+    width: 80%;
+}
+
+.bar:nth-child(2) span:before{
+    width: 80%;
+}
+
+.bar:nth-child(3) span:before{
+    width: 60%;
+}
+
+.bar:nth-child(4) span:before{
+    width: 60%;
+}
+
+.bar:nth-child(5) span:before{
+    width: 40%;
+}
+
+abbr {
+    width: 50px;
+    color: ivory;
+    display: inline-block;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 35px;
+    top: 50px;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to left, rgb(67, 67, 204), rgb(20, 172, 121));
+    box-shadow: 0 5px 20px rgb(67, 67, 204), 0 5px 20px   rgb(20, 172, 121);
+    animation: count 4s ease;
+}
+
+@keyframes count {
+    from {
+        left: 0%;
+    }
+}
+
+.bar:nth-child(1) abbr{
+    left: 71%;
+}
+
+.bar:nth-child(2) abbr{
+    left: 73%;
+}
+
+.bar:nth-child(3) abbr{
+    left: 47%;
+}
+
+.bar:nth-child(4) abbr{
+    left: 50%;
+}
+
+.bar:nth-child(5) abbr{
+    left: 33%;
+}
+
 .side-nav {
     height: 100%; 
     width: 0; 
@@ -167,7 +262,7 @@ p {
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #852727; 
+    background-color: #19cece; 
     overflow-x: hidden; 
     padding-top: 60px; 
     transition: 0.5s; 
@@ -178,13 +273,13 @@ p {
     padding-left: 10px;
     line-height: 40px;
     font-size: 15px;
-    color: gold;
+    color: ivory;
     display: block;
     transition: 0.3s;
   }
 
   .side-nav a:hover {
-    color: #f1f1f1;
+    color: #130b0b;
   }
 
   .side-nav .closebtn {
@@ -194,3 +289,5 @@ p {
     font-size: 36px;
     margin-left: 50px;
   }
+
+  
