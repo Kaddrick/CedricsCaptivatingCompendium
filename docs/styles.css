@@ -8,14 +8,15 @@ body {
 }
 
 .container {
+    margin-left: 20%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 #header {
+    width: 100%;
     background-color: #19cece;
-    height: 150px;
-    line-height: 150px;
+    height: 100px;
 }
 
 #header a {
@@ -33,9 +34,9 @@ body {
 #header-title {
     display: block;
     float: right;
-
+    padding-top: 3%;
     font-size: 20px;
-    color:ivory;
+    color:white;
     font-weight: bold;
 }
 
@@ -48,6 +49,7 @@ body {
     min-width: 300px;
     display: inline-block;
     vertical-align: top;
+    margin: 5%;
 }
 
 #footer h4 {
@@ -61,7 +63,7 @@ body {
 }
 
 a {
-    color: gold;
+    color: rgb(0, 174, 255);
     text-decoration: none;
 }
 
@@ -70,8 +72,6 @@ a:hover {
 }
 
 .post {
-    max-width: 800px;
-    margin: 0 auto;
     padding: 60px 0;
 }
 
@@ -89,8 +89,8 @@ a:hover {
 }
 
 .post-WordlMap img {
-    width: 800x;
-    height: 600px;
+    width: 90%;
+    height: 90%;
     vertical-align: middle;
 }
 
@@ -110,45 +110,65 @@ a:hover {
 
 .Scroll {
     float: left;
-    color: ivory;
-    
+    color: white;
+    width: auto;
+    padding-top: 3%;
 }
 
 .EphyraInfo img, .OakeepInfo img {
-    width: 800px;
-    height: 500px;
+    width: 90%;
+    height: 90%;
+}
+
+.map img {
+    width: 90%;
+    height: 90%;
 }
 
 .Ephyra, .Oakeep {
     float: left;
-    position: relative;
+    position: absolute;
     z-index: 1000;
     margin-bottom: -20px;
-    opacity: 0;
+    opacity: 1;
 }
 
 .Ephyra {
-    left: 305px;
-    top: 523px;
+    left: 30%;
+    top: 113%;
 }
 
 .Oakeep {
-    left: 465px;
-    top: 525px;
+    left: 45%;
+    top: 114%;
 }
 
 h1, h2, h3, h4 {
     color: #333;
 }
 
+h3.post.title {
+    display: inline-flex;
+    margin: 5%;
+}
+
+.level {
+    margin: 0 5% 0 5%;
+}
+
 p {
+    margin: 0 5% 0 5%;
     line-height: 1.5;
 }
 
 .post, .about {
-    max-width: 800px;
-    margin: 0 auto;
+    vertical-align: middle;
+    margin: 5% 10% 0 10%;
     padding: 60px 0;
+}
+
+.post-intro {
+    vertical-align: middle;
 }
 
 .about {
@@ -156,8 +176,8 @@ p {
 }
 
 .about-author img{
-    width: 500px;
-    height: 500px;
+    width: 75%;
+    height: 75%;
     vertical-align: middle;
     border-radius: 50%;
 }
@@ -222,38 +242,13 @@ abbr {
     text-align: center;
     line-height: 35px;
     top: 50px;
-    position: relative;
     z-index: 1;
     background: linear-gradient(to left, rgb(67, 67, 204), rgb(20, 172, 121));
     box-shadow: 0 5px 20px rgb(67, 67, 204), 0 5px 20px   rgb(20, 172, 121);
     animation: count 4s ease;
 }
 
-@keyframes count {
-    from {
-        left: 0%;
-    }
-}
 
-.bar:nth-child(1) abbr{
-    left: 71%;
-}
-
-.bar:nth-child(2) abbr{
-    left: 73%;
-}
-
-.bar:nth-child(3) abbr{
-    left: 47%;
-}
-
-.bar:nth-child(4) abbr{
-    left: 50%;
-}
-
-.bar:nth-child(5) abbr{
-    left: 33%;
-}
 
 .side-nav {
     height: 100%; 
@@ -273,7 +268,7 @@ abbr {
     padding-left: 10px;
     line-height: 40px;
     font-size: 15px;
-    color: ivory;
+    color: white;
     display: block;
     transition: 0.3s;
   }
