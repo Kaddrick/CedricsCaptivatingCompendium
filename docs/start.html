@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleStart.css">
+    <title>Spell sheet</title>
+</head>
+
+<body>
+    <header>
+        <h1>Spell Book</h1>
+    </header>
+    
+    <h2>
+        <button class="modalbtn" onclick="document.getElementById('id01').style.display='block'">Spellcaster Skills</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <div class="Modaltitle">spellcaster</div>
+      <form>
+          Character level:<input type="text" id="CLevel" class="CLevel"><br>
+          Spell casting ability modifier:<input type="text" id="CAMod" class="CAMod">
+      </form>
+    
+      <div class="clearfix">
+        <button type="button"  class="cancelbtn">Cancel</button>
+        <button type="button"  class="submitbtn">submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+        Spell DC:<span id="DC" class="DC"></span>
+        Spell attack: +<span id="spellattack" class="spellattack"></span>
+    
+<center><div class="spellList">
+    <div class="Cantrip">
+        <div class="spellLevel">Cantrip <input type="text" class="cantripInput" required><button class="cantrip-button" type="submit">add</button>
+            
+        </div>
+        <div class="cantripContainer">
+            <ul class="cantripList">
+            </ul>
+        </div>  
+    </div>
+    <div class="FirstLevel">
+        <div class="spellLevel">First level spell <input type="text" class="firstLevelInput"><button class="FirstLevel-button" type="submit">add</button>
+        spell slot <input class="Slot1" id="Slot1" type="texte"><button class="Casttbn1">Cast</button>
+        </div>
+        <div class="FirstLevelContainer">
+            <ul class="FirstLevelList">
+            </ul>
+    </div>  
+    </div>   
+    <div class="SecondLevel">
+        <div class="secondLevelContainer">
+        <div class="spellLevel">Second level spell <input type="text" class="secondLevelInput"><button class="secondLevel-button" type="submit">add</button>
+            spell slot <input class="Slot2" id="Slot2" type="texte"><button class="Casttbn2">Cast</button>
+        </div>
+            <ul class="secondLevelList">
+            </ul>
+        </div>
+    </div>     
+    <div class="ThirdLevel">
+        <div class="ThirdLevelContainer">
+        <div class="spellLevel">Third level spell <input type="text" class="thirdLevelInput"><button class="thirdLevel-button" type="submit">add</button>      
+            spell slot <input class="Slot" id="Slot" type="texte"><button class="Casttbn3">Cast</button>
+            </div>
+            <ul class="thirdLevelList">
+            </ul>
+        </div>
+    </div>     
+    <div class="FourthLevel">
+        <div class="FourthLevelContainer">
+        <div class="spellLevel">Fourth level spell <input type="text" class="fourthLevelInput"><button class="fourthLevel-button" type="submit">add</button>
+            spell slot <input class="Slot" id="Slot" type="texte"><button class="Casttbn4">Cast</button>
+        </div>
+            <ul class="fourthLevelList">
+            </ul>
+        </div>
+    </div>     
+    <div class="FifthLevel">
+        <div class="fithLevelContainer">
+        <div class="spellLevel">Fifth level spell <input type="text" class="fifthLevelInput"><button class="fifthLevel-button" type="submit">add</button>            
+            spell slot <input class="Slot" id="Slot" type="texte"><button class="Casttbn5">Cast</button>
+        </div>
+            <ul class="fifthLevelList">
+            </ul>
+        </div>
+    </div>     
+    <div class="SixthLevel">
+        <div class="SitxthLevelContainer">
+        <div class="spellLevel">Sixth level spell <input type="text" class="sixthLevelInput"><button class="sixthLevel-button" type="submit">add</button>       
+            spell slot <input class="Slot" id="Slot" type="texte"><button class="Casttbn6">Cast</button>
+        </div>
+            <ul class="sixthLevelList">
+            </ul>
+        </div>
+    </div>     
+    <div class="SeventhLevel">
+        <div class="seventhLevelContainer">
+        <div class="spellLevel">Seventh level spell <input type="text" class="seventhLevelInput"><button class="seventhLevel-button" type="submit">add</button>      
+            spell slot <input class="Slot" id="Slot" type="texte"><button class="Casttbn7">Cast</button>
+        </div>
+            <ul class="seventhLevelList">
+            </ul>
+        </div>
+    </div>     
+    <div class="eighthLevel">
+        <div class="eighthLevelContainer">
+        <div class="spellLevel">Eighth level spell <input type="text" class="eighthLevelInput"><button class="eighthLevel-button" type="submit">add</button>
+            spell slot <input class="Slot" id="Slot" type="texte"><button class="Casttbn8">Cast</button>
+        </div>
+            <ul class="eighthLevelList">
+            </ul>
+        </div>
+    </div> 
+    <div class="ninethLevel">
+        <div class="ninethLevelContainer">
+        <div class="spellLevel">Nineth level spell <input type="text" class="ninethLevelInput"><button class="ninethLevel-button" type="submit">add</button>
+            spell slot <input class="Slot" id="Slot" type="texte"><button class="Casttbn9">Cast</button>
+        </div>
+        <ul class="ninethLevelList">
+            </ul>
+        </div>
+    </div>         
+</center></div>
+
+<script src="start.js"></script>    
+</body>
+</html>

@@ -1,0 +1,165 @@
+body {
+    background-color:#f3f1ebdc;
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive, sans-serif;
+}
+
+.spellLevel {
+    width: 50%;
+    margin-top: 5%;
+    background-color:  #19cece;
+    padding: 1%;
+    border: none;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+
+
+input {
+    border: none;
+    width: 30%;
+}
+
+ul {
+    background-color: #fdfdfd;
+    width: 50%;
+    height: 15em;
+    margin-top: 0;
+}
+
+.SlotMax, .Slotleft {
+    width: 10%;
+}
+
+
+
+.cantrip-button, .FirstLevel-button, .secondLevel-button, .thirdLevel-button, .fourthLevel-button, .fifthLevel-button, .sixthLevel-button, .seventhLevel-button, .eighthLevel-button , .ninethLevel-button, .Casttbn1, .Casttbn2, .Casttbn3, .Casttbn4, .Casttbn5, .Casttbn6, .Casttbn7, .Casttbn8, .Casttbn9 {
+    background-color: white;
+    border: none;
+    color:  #19cece;
+    transition: all 0.3s ease;
+}
+
+.cantrip-button:hover, .FirstLevel-button:hover, .secondLevel-button:hover, .thirdLevel-button:hover, .fourthLevel-button:hover, .fifthLevel-button:hover, .sixthLevel-button:hover, .seventhLevel-button:hover, .eighthLevel-button:hover, .ninethLevel-button:hover, .Casttbn1:hover, .Casttbn2:hover, .Casttbn3:hover, .Casttbn4:hover, .Casttbn5:hover, .Casttbn6:hover, .Casttbn7:hover, .Casttbn8:hover, .Casttbn9:hover {
+    background-color: #19cece;
+    border: none;
+    color: white;
+}
+
+* {box-sizing: border-box;}
+
+/* Set a style for all buttons */
+.modalbtn {
+  background-color: #19cece;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.modalbtn:hover {
+  opacity: 1;
+  background-color: white;
+  color:  #19cece;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .submitbtn {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+/* Add a color to the delete button */
+.submitbtn {
+  background-color: #19cece;
+  border: none;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+ 
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 50px;
+  
+}
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: center;
+  background-color:  #19cece;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+form {
+  text-align: center;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color:  #19cece;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .submitbtn {
+     width: 100%;
+  }
+}
