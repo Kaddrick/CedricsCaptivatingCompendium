@@ -16,6 +16,29 @@ h1 {
     font-family: 'Times New Roman', sans-serif;
 }
 
+.checkSpell {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  color: #19cece;
+}
+
+.DltSpell {
+  float: right;
+  color: #f1f1f1;
+  background-color: #19cece;
+  border: none;
+  margin: 0;
+}
+
+.DltSpell:hover {
+  float: right;
+  color: #19cece;
+  background-color: #f1f1f1;
+  border: none;
+  margin: 0;
+}
 
 
 input {
@@ -35,6 +58,18 @@ ul {
 }
 
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.spellList li {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+}
 
 .cantrip-button, .FirstLevel-button, .secondLevel-button, .thirdLevel-button, .fourthLevel-button, .fifthLevel-button, .sixthLevel-button, .seventhLevel-button, .eighthLevel-button , .ninethLevel-button, .Casttbn1, .Casttbn2, .Casttbn3, .Casttbn4, .Casttbn5, .Casttbn6, .Casttbn7, .Casttbn8, .Casttbn9 {
     background-color: white;
